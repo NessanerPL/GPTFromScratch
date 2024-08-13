@@ -1,0 +1,50 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directory
+myenv/
+
+# Ignore VSCode settings (if you want to exclude it)
+.vscode/
+
+# Ignore Jupyter Lab workspace settings
+.jupyter/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore data files (if you have large datasets you don't want in Git)
+*.csv
+*.tsv
+*.json
+*.h5
+*.db
+
+# Ignore model checkpoints and outputs
+checkpoints/
+*.ckpt
+*.hdf5
+*.pth
+*.pt
+
+# Ignore large data files (Tiny Shakespeare corpus can be large)
+tinyshakespeare.txt
+
+# Ignore generated documentation files
+*.html
+*.pdf
+*.docx
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+.ipynb_checkpoints
+gpt_dev.ipynb
